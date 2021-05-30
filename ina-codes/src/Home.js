@@ -1,11 +1,11 @@
-import React, { Fragment, Component } from "react"
+import React from "react"
 
-export default class Home extends Component {
+export default class Home extends React.Component {
     render() {
         return(
-            <>
-            <h1>ina.codes homepage</h1>
-            </>
+            <div className="content">
+            <h1 className="content-box">ina.codes homepage</h1>
+            </div>
         )
     }
 }
