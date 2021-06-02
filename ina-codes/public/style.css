@@ -23,6 +23,16 @@ button {
   width: 200px;
   margin: 20px;
   text-transform: lowercase;
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 20px;
+}
+
+#codes {
+  display: flex;
+  font-family: 'Space Mono', serif;
+  text-align: left;
+  font-weight: 700;
+  font-style: normal;
 }
 
 #contact {
@@ -38,6 +48,7 @@ button {
   background-color: #080808;
   padding: 30px;
   width: 250px;
+  /* height: 100vh; */
 }
 
 .nav a {
@@ -47,29 +58,41 @@ button {
 
 .content {
   display: flex;
+  flex-direction: column;
   text-align: center;
-  height: 100vh;
-  width: 70vw;
+  /* height: 100vh; */
+  width: 65vw;
   justify-content: center;
   align-items: center;
-  border: 6px solid #080808;
-  padding: 40px 40px 40px 40px;
+  padding: 15% 10% 10% 10%;
+  font-family: "Space Mono", serif;
+  font-style: italic;
 }
 
-/* .content-box {
+.content-box {
   display: flex;
   flex-direction: row-wrap;
+  padding: 15%;
+  border: 6px solid #080808;
+  font-family: "Space Mono", serif;
+  font-style: normal;
+}
 
-  
-} */
+.icons {
+  display: flex;
+  flex-direction: row-wrap;
+  padding: 50px 10px 10px 10px;
+}
 
 .content img {
   height: 100px;
   width: auto;
+  padding: 5px;
 }
 .App {
   text-align: center;
   display: flex;
   flex-direction: column-wrap;
+  height: 100vh;
 }
 
