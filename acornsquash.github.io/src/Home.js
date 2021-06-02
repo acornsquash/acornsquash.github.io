@@ -8,6 +8,7 @@ export default class Home extends React.Component {
             <p>maybe photo here</p>
             <p>maybe more things here and here</p>
             <p>even more here</p>
+            <p>more more more more more</p>
             </div>
         )
     }
