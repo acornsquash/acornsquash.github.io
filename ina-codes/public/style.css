@@ -26,6 +26,11 @@ button {
   font-family: 'Yantramanav', sans-serif;
   font-size: 20px;
 }
+ button:hover {
+
+  border: 3px solid #15B18D;
+   
+ }
 
 #codes {
   display: flex;
@@ -39,6 +44,10 @@ button {
   background-color: #001BB2;
   border: 1px solid #001BB2;
   font-weight: bold;
+}
+
+#contact:hover {
+  border: 3px solid #001BB2;
 }
 
 .nav {
@@ -70,12 +79,16 @@ button {
 }
 
 .content-box {
-  display: flex;
-  flex-direction: row-wrap;
-  padding: 15%;
-  border: 6px solid #080808;
+  padding: 6%;
+  border: 9px solid #080808;
   font-family: "Space Mono", serif;
   font-style: normal;
+  font-size: 18px;
+}
+
+.content-box p {
+  padding: 0%;
+  margin: 0px;
 }
 
 .icons {
@@ -88,6 +101,13 @@ button {
   height: 100px;
   width: auto;
   padding: 5px;
+}
+
+#dash {
+  color: #001BB2;
+  font-size: 72px;
+  padding: 0%;
+  margin: 0px;
 }
 .App {
   text-align: center;
