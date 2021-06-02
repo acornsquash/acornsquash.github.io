@@ -7,6 +7,7 @@ export default class Home extends React.Component {
             <h1 className="content-box">ina.codes homepage</h1>
             <p>maybe photo here</p>
             <p>maybe more things here and here</p>
+            <p>even more here</p>
             </div>
         )
     }
