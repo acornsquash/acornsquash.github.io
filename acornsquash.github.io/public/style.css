@@ -92,6 +92,40 @@ button {
   margin: 0px;
 }
 
+.content-home {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  /* height: 100vh; */
+  width: 65vw;
+  justify-content: center;
+  align-items: center;
+  padding: 0% 10% 10% 10%;
+  font-family: "Space Mono", serif;
+  font-style: italic;
+}
+
+.content-box-home {
+  display: flex;
+  flex-direction: row-wrap;
+  align-items: center;
+  padding: 10%;
+  margin: 10%;
+  border: 9px solid #080808;
+  font-family: "Space Mono", serif;
+  font-style: normal;
+  font-size: 18px;
+}
+
+#me {
+  height: 40vh;
+  width: auto;
+  border: 5px solid #080808;
+  display: flex;
+  flex-direction: row;
+  margin: 5%;
+}
+
 .icons {
   display: flex;
   flex-direction: row-wrap;
@@ -115,5 +149,6 @@ button {
   display: flex;
   flex-direction: column-wrap;
   height: 100vh;
+  overflow-y: hidden;
 }
 
