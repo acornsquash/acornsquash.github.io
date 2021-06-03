@@ -8,10 +8,10 @@ export default class Nav extends React.Component {
             <div className="nav">
             <Link to="/"><img src={NameBox} alt="ina-codes-logo"></img></Link>
             <div className="button-container">
-            <button><Link to="/about">About</Link></button>
-            <button><Link to="/skills">Skills</Link></button>
-            <button><Link to="/projects">Projects</Link></button>
-            <button id="contact"><Link to="/contact">Contact</Link></button>
+            <Link to="/about"><button>About</button></Link>
+            <Link to="/skills"><button>Skills</button></Link>
+            <Link to="/projects"><button>Projects</button></Link>
+            <Link to="/contact"><button id="contact">Contact</button></Link>
             </div>
             </div>
         )
