@@ -152,3 +152,101 @@ button {
   overflow-y: hidden;
 }
 
+@media only screen and (max-width: 600px) {
+  .App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    background-color: #080808;
+    padding: 8% 8% 12% 8%;
+    width: auto;
+    height: 30vh;
+  }
+
+  button {
+    background-color: #080808;
+    color: #15B18D;
+    border: 1px solid #15B18D;
+    padding: 3px 12px 3px 12px;
+    width: 100px;
+    margin: 7px;
+    text-transform: lowercase;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 12px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 50vh;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 4%;
+    font-family: "Space Mono", serif;
+    font-style: italic;
+    font-size: 14px;
+  }
+
+  .content-box {
+    padding: 4%;
+    border: 5px solid #080808;
+    font-family: "Space Mono", serif;
+    font-style: normal;
+    font-size: 12px;
+  }
+
+  .content-home {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    height: 70vh;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 10% 10% 10%;
+    font-family: "Space Mono", serif;
+    font-style: italic;
+  }
+
+  .content-box-home {
+    display: flex;
+    flex-direction: row-wrap;
+    align-items: center;
+    padding: 10%;
+    margin: 10%;
+    border: 5px solid #080808;
+    font-family: "Space Mono", serif;
+    font-style: normal;
+    font-size: 12px;
+  }
+
+  .content img {
+    height: 35px;
+    width: auto;
+    padding: 2%;
+  }
+
+  #dash {
+    display: none;
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: row-wrap;
+    width: 100vw;
+    justify-content: center;
+    
+  }
+}
+
