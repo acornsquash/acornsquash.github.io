@@ -12,7 +12,11 @@ export default class Projects extends React.Component {
                 <a href= "https://chrome.google.com/webstore/detail/moonfaze/jkaammejammacclalmefmhkpjcfdcfim/related" target="_blank" rel="noopener noreferrer"><em>MoonFaze</em></a> is a free extension for Chrome browsers (pending review for publication!). Designed for werewolves (or people who just wante to keep track of the moon), it shows the moon's current phase, in a clean, simple, unobtrusive little popout. Also available in German.
 
             </p>
+            <p className="content-box">
+                <a href = "https://github.com/acornsquash/fridge-poems" target="_blank" rel="noopener noreferrer"><em>Fridge Poems with Friends</em></a> is a work in progress. It hopes to be an app simulation of refrigerator magnet poetry, where users can share a common "fridge" and see each other's new creations in real time using socket.io 
+            </p>
             </div>
         )
     }
 }
+
