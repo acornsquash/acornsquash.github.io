@@ -12,7 +12,7 @@ export default class Skills extends React.Component {
         return(
             <div className="content">
                 
-            <h1>I am skilled in: HTML5, CSS, JavaScript, React, React-redux, node.js, express.js, Sequelize.js, PostgreSQL, Firebase</h1>
+            <h1>I am skilled in: HTML5, CSS, JavaScript, Typescript, React, React-redux, Jest, Apollo / GraphQL, node.js, express.js, Sequelize.js, PostgreSQL</h1>
             <div >
             <div className="icons">
             <img src={JavaScript} alt="javascript logo"></img>

@@ -6,9 +6,10 @@ export default class About extends React.Component {
         return(
             <div className="content">
             <div className="content-box">
-                <h1 id="dash"> > > > > > </h1>
-                <p>I am a recent graduate of Fullstack Academy, an immersive software engineering bootcamp, currently looking for job opportunities in the (very glamorous) NYC tech world. I love to code and really look forward to doing it full time. My other sparkling passions include poetry, cooking, and long bike rides. </p>
-                <h1 id="dash"> > > > > > </h1>
+                <h1 id="dash"> {">"} {">"} {">"} {">"} {">"} </h1>
+                <p>Hi! I’m Ina, a bartender-turned-software-engineer currently based in NYC. In early 2020 I started teaching myself to code, began my career change as a bootcamp grad by spring of 2021, and have been developing and expanding my skills as an engineer with the help of the excellent dev team at <a href="https://qz.com/" target="_blank" rel="noreferrer">Quartz</a> for the past nine months.
+</p>
+                <h1 id="dash"> {">"} {">"} {">"} {">"} {">"} </h1>
             </div>
             </div>
         )
