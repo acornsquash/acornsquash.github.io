@@ -9,7 +9,7 @@ export default class Projects extends React.Component {
             </p>
             <p className="content-box">
 
-                <a href="https://chrome.google.com/webstore/detail/moonfaze/jkaammejammacclalmefmhkpjcfdcfim" target="_blank" rel="noreferrer"><em>MoonFaze</em></a> is a free extension for Chrome browsers Designed for werewolves (or people who just wante to keep track of the moon), it shows the moon's current phase, in a clean, simple, unobtrusive little popout. Also available in German.
+                <a href="https://chrome.google.com/webstore/detail/moonfaze/jkaammejammacclalmefmhkpjcfdcfim" target="_blank" rel="noreferrer"><em>MoonFaze</em></a> is a free extension for Chrome browsers Designed for werewolves (or people who just want to keep track of the moon), it shows the moon's current phase, in a clean, simple, unobtrusive little popout. Also available in German.
 
             </p>
             </div>
