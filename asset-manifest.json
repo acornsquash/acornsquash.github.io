@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.js": "/static/js/main.45eeffe8.chunk.js",
+    "main.js.map": "/static/js/main.45eeffe8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e530c0a5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e530c0a5.js.map",
+    "static/js/2.8dd3ba35.chunk.js": "/static/js/2.8dd3ba35.chunk.js",
+    "static/js/2.8dd3ba35.chunk.js.map": "/static/js/2.8dd3ba35.chunk.js.map",
+    "index.html": "/index.html",
+    "static/js/2.8dd3ba35.chunk.js.LICENSE.txt": "/static/js/2.8dd3ba35.chunk.js.LICENSE.txt",
+    "static/media/PostgreSQL.08135fa8.png": "/static/media/PostgreSQL.08135fa8.png",
+    "static/media/boat.4fc13a5a.jpg": "/static/media/boat.4fc13a5a.jpg",
+    "static/media/expressjs-icon.967f19e5.png": "/static/media/expressjs-icon.967f19e5.png",
+    "static/media/javascript-39415.2bd1c1d7.png": "/static/media/javascript-39415.2bd1c1d7.png",
+    "static/media/name box.495e2d12.svg": "/static/media/name box.495e2d12.svg",
+    "static/media/nodeJS.bc86a55e.png": "/static/media/nodeJS.bc86a55e.png",
+    "static/media/pngegg.978ea28b.png": "/static/media/pngegg.978ea28b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e530c0a5.js",
+    "static/js/2.8dd3ba35.chunk.js",
+    "static/js/main.45eeffe8.chunk.js"
+  ]
+}

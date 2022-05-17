@@ -1,0 +1,253 @@
+body {
+  background-color: #15B18D;
+  margin: 0;
+}
+
+a {
+  color: #080808;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-top: 20px;
+  width: 250px;  
+}
+
+button {
+  background-color: #080808;
+  color: #15B18D;
+  border: 1px solid #15B18D;
+  padding: 10px 40px 10px 40px;
+  width: 200px;
+  margin: 20px;
+  text-transform: lowercase;
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+}
+ button:hover {
+  background-color: #001BB2;
+  /* border: 2px solid #15B18D; */
+   
+ }
+
+#codes {
+  display: flex;
+  font-family: 'Space Mono', serif;
+  text-align: left;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#contact {
+  background-color: #001BB2;
+  border: 1px solid #001BB2;
+  font-weight: bold;
+}
+
+#contact:hover {
+  /* border: 2px solid #001BB2; */
+  background-color: #080808;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background-color: #080808;
+  padding: 30px;
+  width: 250px;
+  /* height: 100vh; */
+}
+
+.nav a {
+  color:#15B18D;
+  text-decoration: none;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* height: 100vh; */
+  width: 65vw;
+  justify-content: center;
+  align-items: center;
+  padding: 15% 10% 10% 10%;
+  font-family: "Space Mono", serif;
+  font-style: italic;
+}
+
+.content-box {
+  padding: 6%;
+  border: 9px solid #080808;
+  font-family: "Space Mono", serif;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.content-box p {
+  padding: 0%;
+  margin: 0px;
+}
+
+.content-home {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  /* height: 100vh; */
+  width: 65vw;
+  justify-content: center;
+  align-items: center;
+  padding: 0% 10% 10% 10%;
+  font-family: "Space Mono", serif;
+  font-style: italic;
+}
+
+.content-box-home {
+  display: flex;
+  flex-direction: row-wrap;
+  align-items: center;
+  padding: 10%;
+  margin: 10%;
+  border: 9px solid #080808;
+  font-family: "Space Mono", serif;
+  font-style: normal;
+  font-size: 18px;
+}
+
+#me {
+  height: 40vh;
+  width: auto;
+  border: 5px solid #080808;
+  display: flex;
+  flex-direction: row;
+  margin: 5%;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row-wrap;
+  padding: 50px 10px 10px 10px;
+}
+
+.content img {
+  height: 100px;
+  width: auto;
+  padding: 5px;
+}
+
+#dash {
+  color: #001BB2;
+  font-size: 72px;
+  padding: 0%;
+  margin: 0px;
+}
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column-wrap;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  .App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    background-color: #080808;
+    padding: 8% 8% 12% 8%;
+    width: auto;
+    height: 30vh;
+  }
+
+  button {
+    background-color: #080808;
+    color: #15B18D;
+    border: 1px solid #15B18D;
+    padding: 3px 12px 3px 12px;
+    width: 100px;
+    margin: 7px;
+    text-transform: lowercase;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 12px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 50vh;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 4%;
+    font-family: "Space Mono", serif;
+    font-style: italic;
+    font-size: 14px;
+  }
+
+  .content-box {
+    padding: 4%;
+    border: 5px solid #080808;
+    font-family: "Space Mono", serif;
+    font-style: normal;
+    font-size: 12px;
+  }
+
+  .content-home {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    height: 70vh;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 10% 10% 10%;
+    font-family: "Space Mono", serif;
+    font-style: italic;
+  }
+
+  .content-box-home {
+    display: flex;
+    flex-direction: row-wrap;
+    align-items: center;
+    padding: 10%;
+    margin: 10%;
+    border: 5px solid #080808;
+    font-family: "Space Mono", serif;
+    font-style: normal;
+    font-size: 12px;
+  }
+
+  .content img {
+    height: 35px;
+    width: auto;
+    padding: 2%;
+  }
+
+  #dash {
+    display: none;
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: row-wrap;
+    width: 100vw;
+    justify-content: center;
+    
+  }
+}
+
