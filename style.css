@@ -35,7 +35,7 @@ button {
 
 #codes {
   display: flex;
-  font-family: 'Space Mono', serif;
+  font-family: 'Georgia', serif;
   text-align: left;
   font-weight: 700;
   font-style: normal;
@@ -76,14 +76,14 @@ button {
   justify-content: center;
   align-items: center;
   padding: 15% 10% 10% 10%;
-  font-family: "Space Mono", serif;
+  font-family: "Georgia", serif;
   font-style: italic;
 }
 
 .content-box {
   padding: 6%;
   border: 9px solid #080808;
-  font-family: "Space Mono", serif;
+  font-family: "Georgia", serif;
   font-style: normal;
   font-size: 18px;
 }
@@ -102,7 +102,7 @@ button {
   justify-content: center;
   align-items: center;
   padding: 0% 10% 10% 10%;
-  font-family: "Space Mono", serif;
+  font-family: "Georgia", serif;
   font-style: italic;
 }
 
@@ -113,7 +113,7 @@ button {
   padding: 10%;
   margin: 10%;
   border: 9px solid #080808;
-  font-family: "Space Mono", serif;
+  font-family: "Georgia", serif;
   font-style: normal;
   font-size: 18px;
 }
@@ -194,15 +194,15 @@ button {
     justify-content: center;
     align-items: center;
     padding: 4%;
-    font-family: "Space Mono", serif;
+    font-family: "Georgia", serif;
     font-style: italic;
-    font-size: 14px;
+    font-size: 18px;
   }
 
   .content-box {
     padding: 4%;
     border: 5px solid #080808;
-    font-family: "Space Mono", serif;
+    font-family: "Georgia", serif;
     font-style: normal;
     font-size: 12px;
   }
@@ -216,7 +216,7 @@ button {
     justify-content: center;
     align-items: center;
     padding: 0% 10% 10% 10%;
-    font-family: "Space Mono", serif;
+    font-family: "Georgia", serif;
     font-style: italic;
   }
 
@@ -227,7 +227,7 @@ button {
     padding: 10%;
     margin: 10%;
     border: 5px solid #080808;
-    font-family: "Space Mono", serif;
+    font-family: "Georgia", serif;
     font-style: normal;
     font-size: 12px;
   }
